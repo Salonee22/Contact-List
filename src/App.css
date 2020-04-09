@@ -1,0 +1,45 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+.Person
+{
+background: skyblue;
+width: 17rem;
+padding: 1rem;
+margin: 2rem auto;
+transition: all 0.3s linear;
+border-radius: 0.3rem;
+text-align: center;
+}
+
+.Person img
+{
+  border-radius: 50%;
+  border: 0.1rem solid grey;
+}
+
+.Person h4
+{
+  color: black;
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.3rem;
+  color: grey;
+}
+.Person:hover
+{
+  background-color:silver;
+  box-shadow: 2px 5px 10px rgba(128, 39, 39, 0.3);
+}
+.Person h5
+{
+  color: black;
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  color: black;
+}
